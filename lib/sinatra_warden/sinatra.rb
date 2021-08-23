@@ -5,7 +5,7 @@ module Sinatra
 
       # The main accessor to the warden middleware
       def warden
-        request.env['warden']
+        env['warden']
       end
 
       # Return session info
